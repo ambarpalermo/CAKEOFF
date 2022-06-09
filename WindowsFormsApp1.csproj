@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0E7548A-8DD7-4FEC-AD0C-DE8C74481579}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="brownieboton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="brownieboton.Designer.cs">
+      <DependentUpon>brownieboton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Carrotcakeboton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carrotcakeboton.Designer.cs">
+      <DependentUpon>Carrotcakeboton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chocotortaboton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chocotortaboton.Designer.cs">
+      <DependentUpon>chocotortaboton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iniciar sesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iniciar sesion.Designer.cs">
+      <DependentUpon>iniciar sesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio.Designer.cs">
+      <DependentUpon>inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="principal.Designer.cs">
+      <DependentUpon>principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recetastortas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recetastortas.Designer.cs">
+      <DependentUpon>Recetastortas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registrarse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registrarse.Designer.cs">
+      <DependentUpon>registrarse.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="brownieboton.resx">
+      <DependentUpon>brownieboton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carrotcakeboton.resx">
+      <DependentUpon>Carrotcakeboton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chocotortaboton.resx">
+      <DependentUpon>chocotortaboton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iniciar sesion.resx">
+      <DependentUpon>iniciar sesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio.resx">
+      <DependentUpon>inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="principal.resx">
+      <DependentUpon>principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Recetastortas.resx">
+      <DependentUpon>Recetastortas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registrarse.resx">
+      <DependentUpon>registrarse.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cakeoff %28pantalla principal%29.jpg" />
+    <None Include="Resources\CHOCOTORTA BOTON.png" />
+    <None Include="Resources\CHEESECAKE BOTON.png" />
+    <None Include="Resources\LEMON PIE BOTON.png" />
+    <None Include="Resources\BIZCOCHUELO DE VAINILLA BOTON.png" />
+    <None Include="Resources\CARROTCAKE BOTON.png" />
+    <None Include="Resources\RED VELVET BOTON.png" />
+    <None Include="Resources\ROGEL BOTON.png" />
+    <None Include="Resources\BROWNIE BOTON.png" />
+    <None Include="Resources\CHOCOTORTA %28receta%29.jpg" />
+    <None Include="Resources\CHEESECAKE %28receta%29.jpg" />
+    <None Include="Resources\LEMONPIE %28receta%29.jpg" />
+    <None Include="Resources\LEMONPIE %28receta 2%29.jpg" />
+    <None Include="Resources\Bizcochuelo %28receta%29.jpg" />
+    <None Include="Resources\CARROTCAKE %28receta%29.jpg" />
+    <None Include="Resources\RED VELVET %28Receta%29.jpg" />
+    <None Include="Resources\ROGEL %28receta%29.jpg" />
+    <None Include="Resources\ROGEL %28receta 2%29.jpg" />
+    <None Include="Resources\Brownie %28receta%29.jpg" />
+    <None Include="Resources\EMPEZAR.jpg" />
+    <None Include="Resources\PANTALLA NORMAL.jpg" />
+    <None Include="Resources\BOTON ROSA.jpg" />
+    <None Include="Resources\Sin título-1.jpg" />
+    <None Include="Resources\PANTALLA NORMAL1.jpg" />
+    <None Include="Resources\CHOCOTORTA %28receta%291.jpg" />
+    <None Include="Resources\CHOCOTORTA %28Tiempo, dificultad, porciones%29.jpg" />
+    <None Include="Resources\CHEESECAKE %28tiempo, porcion, dificultado%29.jpg" />
+    <None Include="Resources\LEMONPIE %28tiempo, dificultad, porciones%29.jpg" />
+    <None Include="Resources\CARROTCAKE %28tiempo, porciones, dificultad%29.jpg" />
+    <None Include="Resources\Bizcochuelo %28tiempo, porcion, dificultad%29.jpg" />
+    <None Include="Resources\RED VELVET %28tiempo, porciones, dificultad%29.jpg" />
+    <None Include="Resources\Brownie %28tiempo, porciones, dificultad%29.jpg" />
+    <None Include="Resources\apple cumble boton.PNG" />
+    <None Include="Resources\pastafrola boton.PNG" />
+    <None Include="Resources\tiramisu boton.PNG" />
+    <None Include="Resources\TORTA DE FRUTILLA %28porcion, tiempo, dificultad%29.jpg" />
+    <None Include="Resources\Captura 2.PNG" />
+    <None Include="Resources\Captura %281%29.PNG" />
+    <None Include="Resources\Captura 21.PNG" />
+    <None Include="Resources\Captura 3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BROWNIE BOTONwww1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARROTCAKE BOTON www1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHOCOTORTA BOTON1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscarbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar torta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar torta1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sugerencias.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buscar torta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buscar torta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TORTA DE FRUTILLA (porcion, tiempo, dificultad)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TORTA DE FRUTILLA (porcion, tiempo, dificultad).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RED VELVET (tiempo, porciones, dificultad)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RED VELVET (tiempo, porciones, dificultad).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARROTCAKE (receta)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARROTCAKE (receta).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHOCOTORTA BOTON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHOCOTORTA BOTON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHOCOTORTA BOTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHOCOTORTA BOTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARROTCAKE BOTON www1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARROTCAKE BOTON www1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHOCOTORTA (receta)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHOCOTORTA (receta).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sin título-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sin título-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apple cumble boton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apple cumble boton.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEMONPIE (receta 2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEMONPIE (receta 2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHOCOTORTA BOTON2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHOCOTORTA BOTON1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHEESECAKE (receta)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHEESECAKE (receta).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BROWNIE BOTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BROWNIE BOTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PANTALLA NORMAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PANTALLA NORMAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pastafrola boton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pastafrola boton.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHEESECAKE (tiempo, porcion, dificultado)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHEESECAKE (tiempo, porcion, dificultado).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bizcochuelo (tiempo, porcion, dificultad)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bizcochuelo (tiempo, porcion, dificultad).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura (1).PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BROWNIE BOTONwww1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BROWNIE BOTONwww1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RED VELVET BOTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RED VELVET BOTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOTON ROSA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BOTON ROSA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brownie (receta)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brownie (receta).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHOCOTORTA (Tiempo, dificultad, porciones)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHOCOTORTA (Tiempo, dificultad, porciones).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buscar torta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buscar torta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARROTCAKE BOTON www" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARROTCAKE BOTON www.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EMPEZAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EMPEZAR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buscar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buscar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARROTCAKE (tiempo, porciones, dificultad)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARROTCAKE (tiempo, porciones, dificultad).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BROWNIE BOTONwww" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BROWNIE BOTONwww.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RED VELVET (Receta)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RED VELVET (Receta).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura 21.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARROTCAKE BOTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARROTCAKE BOTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bizcochuelo (receta)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bizcochuelo (receta).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buscar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PANTALLA NORMAL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PANTALLA NORMAL1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROGEL (receta 2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ROGEL (receta 2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROGEL (receta)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ROGEL (receta).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHOCOTORTA (receta)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHOCOTORTA (receta)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura 3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tiramisu boton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tiramisu boton.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cakeoff (pantalla principal)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cakeoff (pantalla principal).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buscarbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buscarbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEMONPIE (tiempo, dificultad, porciones)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEMONPIE (tiempo, dificultad, porciones).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brownie (tiempo, porciones, dificultad)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brownie (tiempo, porciones, dificultad).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BIZCOCHUELO DE VAINILLA BOTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BIZCOCHUELO DE VAINILLA BOTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROGEL BOTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ROGEL BOTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEMONPIE (receta)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEMONPIE (receta).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura 2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHEESECAKE BOTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHEESECAKE BOTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEMON PIE BOTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LEMON PIE BOTON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnalizandoGIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AnalizandoGIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sugerencias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sugerencias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
