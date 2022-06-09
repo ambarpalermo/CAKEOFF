@@ -198,7 +198,6 @@
             this.Controls.Add(this.lblnombre);
             this.Name = "chocotortaboton";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "chocotortaboton";
             this.ResumeLayout(false);
             this.PerformLayout();
 

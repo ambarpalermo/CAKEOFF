@@ -35,6 +35,7 @@
             this.image1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.LoadingGIF = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.image1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LoadingGIF)).BeginInit();
             this.SuspendLayout();
@@ -70,6 +71,7 @@
             this.txtimagen.Name = "txtimagen";
             this.txtimagen.Size = new System.Drawing.Size(480, 20);
             this.txtimagen.TabIndex = 19;
+            this.txtimagen.TextChanged += new System.EventHandler(this.txtimagen_TextChanged);
             // 
             // label1
             // 
@@ -97,9 +99,9 @@
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Mistral", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(665, 377);
+            this.button2.Location = new System.Drawing.Point(642, 377);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(123, 40);
+            this.button2.Size = new System.Drawing.Size(146, 40);
             this.button2.TabIndex = 42;
             this.button2.Text = "VOLVER";
             this.button2.UseVisualStyleBackColor = false;
@@ -118,6 +120,19 @@
             this.LoadingGIF.TabStop = false;
             this.LoadingGIF.Click += new System.EventHandler(this.LoadingGIF_Click);
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Mistral", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(642, 313);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(146, 45);
+            this.button3.TabIndex = 44;
+            this.button3.Text = "RECETA";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -126,6 +141,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.LoadingGIF);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtimagen);
@@ -134,7 +150,6 @@
             this.Controls.Add(this.image1);
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.image1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LoadingGIF)).EndInit();
@@ -151,5 +166,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox LoadingGIF;
+        private System.Windows.Forms.Button button3;
     }
 }

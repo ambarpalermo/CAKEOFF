@@ -198,7 +198,6 @@
             this.Controls.Add(this.lblnombre);
             this.Name = "Carrotcakeboton";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Carrotcakeboton";
             this.ResumeLayout(false);
             this.PerformLayout();
 

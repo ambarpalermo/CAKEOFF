@@ -200,7 +200,6 @@
             this.Controls.Add(this.lblnombre);
             this.Name = "brownieboton";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "brownieboton";
             this.ResumeLayout(false);
             this.PerformLayout();
 

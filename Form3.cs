@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Data.OleDb;
 
 namespace WindowsFormsApp1
 {
@@ -103,6 +104,48 @@ namespace WindowsFormsApp1
         }
 
         private void LoadingGIF_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OleDbConnection conexion = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;data Source=titi.accdb");
+            conexion.Open();
+
+            string acc = "SELECT * FROM Tortas WHERE Nombre = '" + label1.Text + "' ;";
+
+
+            OleDbCommand comando = new OleDbCommand(acc, conexion);
+            OleDbDataReader reader;
+            reader = comando.ExecuteReader();
+            
+            bool ExisteTorta = reader.HasRows;
+            if (ExisteTorta)
+            {
+                while (reader.Read())
+                {
+                    string nombre = reader["Nombre"].ToString();
+                    string ingredientes = reader["Ingredientes"].ToString();
+                    string preparacion = reader["Preparacion"].ToString();
+                    string tiempo = reader["Tiempo"].ToString();
+                    string dificultad = reader["Dificultad"].ToString();
+                    string porciones = reader["Porciones"].ToString();
+                    Recetastortas mm = new Recetastortas(nombre, ingredientes, preparacion, tiempo, dificultad, porciones);
+                    mm.Show();
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("No se encontro ");
+
+                return;
+            }
+            conexion.Close();
+        }
+
+        private void txtimagen_TextChanged(object sender, EventArgs e)
         {
 
         }

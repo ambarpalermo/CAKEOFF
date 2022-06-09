@@ -56,7 +56,6 @@
             this.MinimizeBox = false;
             this.Name = "inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "inicio";
             this.Load += new System.EventHandler(this.inicio_Load);
             this.ResumeLayout(false);
 
